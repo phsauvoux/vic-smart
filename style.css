@@ -1,0 +1,139 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: #e0f4f9;
+    color: #333;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.slogan {
+    font-family: "Work Sans", italic;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12pt;
+    color:rgb(88, 137, 114);
+    font-style: italic;
+}
+
+header {
+    background: url("motif.png");
+    color: white;
+    border: rgb(186, 234, 204) 1px solid;
+    box-shadow: 0px 1px 1px rgba(38, 82, 73, 0.02),
+  0px 5px 4px rgba(38, 82, 73, 0.03),
+  0px 12px 9px rgba(38, 82, 73, 0.05),
+  0px 20px 15px rgba(38, 82, 73, 0.06),
+  0px 32px 24px rgba(38, 82, 73, 0.08);
+
+    font-weight: 400;
+    padding: 1rem;
+    text-align: center;
+
+}
+.top {
+ background-color: rgb(232, 255, 232);
+ padding-bottom: 10px;
+ padding-top: 10px;
+    width: 100%;
+        box-shadow: 0px 1px 1px rgba(38, 82, 73, 0.02),
+  0px 5px 4px rgba(38, 82, 73, 0.03),
+  0px 12px 9px rgba(38, 82, 73, 0.05),
+  0px 20px 15px rgba(38, 82, 73, 0.06),
+  0px 32px 24px rgba(38, 82, 73, 0.08);
+  text-align: center;
+}
+
+.toptxt {
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 8pt;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#services {
+    padding: 0rem 20%;
+    text-align: left;
+    font-size: 14pt;
+    margin-top: 5rem;
+}
+
+.service {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  12px 12px 24px #b3ccda,
+             -12px -12px 24px #fafafa;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    outline: rgb(2, 210, 37) 4px solid;
+    outline-offset: -8px;
+    display: inline-block;
+    width: 40%;
+    color: rgb(0, 150, 25);
+    border-radius: 10px;
+    box-shadow:  12px 12px 24px #a7cec0,
+             -12px -12px 24px #fafafa;
+}
+
+.contact2 {
+    margin: 1rem;
+    padding: 1rem;
+    outline: rgb(82, 143, 189) 4px solid;
+    outline-offset: -8px;
+    background-color: white;
+    display: inline-block;
+    width: 40%;
+    color: rgb(82, 143, 189);
+    border-radius: 10px;
+    box-shadow:  12px 12px 24px #a7bece,
+             -12px -12px 24px #fafafa;
+}
+
+footer {
+    background-color: rgb(63, 131, 98);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+@media (max-width: 1200px) {
+    .service, .contact, .contact2 {
+        width: 90%;
+    }
+    #services {
+    padding: 0rem 10%;
+}
+
+}
