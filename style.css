@@ -137,3 +137,27 @@ footer {
 }
 
 }
+
+h1 {
+    font-size: 40pt;
+}
+
+h3 {
+    font-size: 14pt;
+
+}
+@media (max-width: 495px) {
+.title {
+    font-size: 30pt;
+}
+
+.subtitle {
+    font-size: 12pt;
+}
+
+#services {
+    padding: 0rem 8%;
+
+}
+
+}
